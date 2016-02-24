@@ -1,6 +1,18 @@
-ABC: 9.9921
-BCF: 9.9935
-DFG: 9.9945
-ABC: 9.9921
-BCF: 9.9935
-DFG: 9.9945
+RIO: 43.4265 42.7 down liq
+STO: 3.3107 3.24 down liq 
+MTR: 4.0607 4.0607 down liq
+MIN: 5.5932 5.44 down liq 
+KOV: 2.1314 2.170 down ill 
+GXL: 7.4193 7.39 down liq 
+CGL: 4.6623 4.75 down ill
+CVO: 1.6235 1.6235 down liq 
+BAL: 11.9678 12.310 down liq 
+ALI: 1.7473
+AOD: 0.6904
+AQF: 1.6564
+AUF: 1.2114
+DMP: 60.5284
+EVN: 1.8195
+OML: 4.1974
+USF: 2.495
+USG: 2.3815

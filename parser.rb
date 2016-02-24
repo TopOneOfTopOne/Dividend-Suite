@@ -3,7 +3,7 @@ require_relative 'HPC'
 		def get_items(items)
 			code = items[0]
 			pcum = items[1].to_f 
-			div = items[2].to_i
+			div = items[2].to_f
 			frank = items[3].to_i
 			[code,pcum,div,frank]
 		end
