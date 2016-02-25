@@ -1,0 +1,34 @@
+ strategy: Wait 2 minutes then market order at hypo price after 30 mins sell at prevailing price
+
+RIO: 43.4265 42.7 down liq
+STO: 3.3107 3.24 down liq 
+MTR: 4.0607 4.0607 down liq
+MIN: 5.5932 5.44 down liq 
+KOV: 2.1314 2.170 down ill 
+GXL: 7.4193 7.39 down liq 
+CGL: 4.6623 4.75 down ill
+CVO: 1.6235 1.6235 down liq 
+BAL: 11.9678 12.310 down liq 
+
+==============25/02/16 (up market)================
+ALI: 1.7473 Max price at 30 min $1.730 at end of day reached $1.750 at 12:07, illiquid stock even with margin lending
+
+AOD: 0.6904 No trades until 3:32pm reaching $0.7 but volume was only 600 than another $0.695 volume was 900 
+
+AQF: 1.6564  No trades until 1:23pm with 2 trades @  $1.640 and $1.680 
+
+AUF: 1.2114 No trades until 12:07 with 2 trades @ 1.210 
+
+DMP: 60.5284 started trade @$61.03 declines
+
+EVN: 1.8195 Started trade @1.84 declines 
+
+OML: 4.1974 Started trade(10:06) @$4.14 then rises to $4.350 (10:11)
+
+USF: 2.495 illiquid stock started @$2.640 then declines 
+
+USG: 2.3815 illiquid stock with only 2 trades (10:28) @$2.430 then declines to $2.420 
+
+Commentary: Every stock reached hypo price. When a stock opens higher at a price higher than hypo price it declines and when it opens at a lower price than hypo it rises 
+
+
