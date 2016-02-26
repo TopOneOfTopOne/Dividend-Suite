@@ -15,4 +15,12 @@ EVN: 1.8195 t u l
 OML: 4.1974 t u l
 USF: 2.495 t u i
 USG: 2.3815 t u i
-
+AGI: 2.2307 t u l 
+AZJ: 3.9313 t u l
+CNI: 0.9969 f u i 
+FID: 2.2468 t u i
+INA: 2.7069 t u l 
+NVT: 4.7246 t u l
+OGC: 3.807 t u l
+PTL: 0.6171 t u i
+TTS: 3.9754 f u i 
