@@ -51,4 +51,16 @@ PTL: 0.6171 100 7 trades (10:07) $0.620
 
 TTS: 3.9754 100 Only after market trades meaning illiquid 
 
-Despits a good us market AU market went sideways. NVT started below hypo price and continued to decline but finally broke it 4 1/2 hours later 
+Despite a good us market AU market went sideways. NVT started below hypo price and continued to decline but finally broke it 4 1/2 hours later 
+
+AIO: 8.9179 100
+CEN: 4.1061 0
+CGF: 7.5543 100
+GRF: 0.5615 0
+IAG: 5.2593 100
+IPH: 6.7504 80
+MYS: 4.1 100
+NCK: 4.2493 100
+ORA: 2.2928 30
+RCG: 1.4904 100
+WES: 39.615 100
