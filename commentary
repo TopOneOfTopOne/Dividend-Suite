@@ -49,6 +49,7 @@ Future Focuses/Research:
 5. Look at scenario of return of capital 
 6. look at conditional orders to limit risk 
 7. Liquidity of stock, are illiquid stock higher risk i.e. price falls short of hypo price by a huge amount (probably set it at sell price at which Pcum = Pex - div (div is actual amount I am going to receive))
+8. look at international share dividends 
 
 
 low = Pcum/1.05

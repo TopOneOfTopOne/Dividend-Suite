@@ -5,7 +5,8 @@ require_relative 'HPC'
 			pcum = items[1].to_f 
 			div = items[2].to_f
 			frank = items[3].to_i
-			[code,pcum,div,frank]
+			div_yield = (div/pcum).round(2)
+			[code,pcum,div,frank,div_yield]
 		end
 
 		o_path = File.expand_path('data/O.txt', File.dirname(__FILE__))
@@ -17,10 +18,10 @@ require_relative 'HPC'
 		
 
 		i.each do |line|
-			code, pcum, div, frank = get_items(line.split)
+			code, pcum, div, frank, div_yield = get_items(line.split)
 			hypo_price = HPC::hpc(pcum, div, frank)
 			o.puts "#{code}: #{hypo_price}"
-			research.puts "#{code}: #{hypo_price} #{frank}"
+			research.puts "#{code}: #{hypo_price} #{frank} #{div_yield}"
 		end
 
 		puts 'done..'
