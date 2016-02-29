@@ -43,9 +43,12 @@ The market was down today large portion of stocks did not reach hypo price stran
 
 Future Focuses/Research: 
 1. No difference between choosing low yield and high yield. Difference comes from being able to iterate through the cycle again faster choosing high yield. 
-2. Receiving franking credits earlier (Earliest is 12 days after 30th June)
+2. Receiving franking credits earlier (Answer: Earliest is 12 days after 30th June)
 3. Choosing high yield with earliest dividend payment date. Dividend payment date probably more important than high yield. To evaluate this we could compare 2 strategies one choosing a higher yield but longer dividend date and vice versa 
 4. Create a mock trading application 
+5. Look at scenario of return of capital 
+6. look at conditional orders to limit risk 
+7. Liquidity of stock, are illiquid stock higher risk i.e. price falls short of hypo price by a huge amount (probably set it at sell price at which Pcum = Pex - div (div is actual amount I am going to receive))
 
 
 low = Pcum/1.05

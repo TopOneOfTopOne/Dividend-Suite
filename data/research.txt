@@ -1,5 +1,7 @@
  strategy: Wait 2 minutes then market order at hypo price after 30 mins sell at prevailing price
 
+ notes: Don't blindly buy stock read anounements 
+
 RIO: 43.4265 42.7 down liq
 STO: 3.3107 3.24 down liq 
 MTR: 4.0607 4.0607 down liq
@@ -53,14 +55,26 @@ TTS: 3.9754 100 Only after market trades meaning illiquid
 
 Despite a good us market AU market went sideways. NVT started below hypo price and continued to decline but finally broke it 4 1/2 hours later 
 
-AIO: 8.9179 100
-CEN: 4.1061 0
-CGF: 7.5543 100
-GRF: 0.5615 0
-IAG: 5.2593 100
-IPH: 6.7504 80
-MYS: 4.1 100
-NCK: 4.2493 100
-ORA: 2.2928 30
-RCG: 1.4904 100
-WES: 39.615 100
+===============29/02/16 side ways=================
+
+AIO: 8.9179 100 (9:59:55) 8.9 hovered around 8.89 whole day dropping to 8.870 near end of trading. High 8.9 
+
+CEN: 4.1061 0 No trades occured today from unknown reason 
+
+CGF: 7.5543 100 (10:02) 7.52 immediately declines but rises to 7.52 again (10:11) reaches 7.560 (10:20)
+
+GRF: 0.5615 0 Trade suspended maybe due to return of capital 
+
+IAG: 5.2593 100 start 5.200 immediately falls. High 5.24
+
+IPH: 6.7504 80 start 6.85 immediately falls 
+
+MYS: 4.1 100 start 4.060 remains flat only breaks hypo (3:55)
+
+NCK: 4.2493 100 start 4.240 remains flat . High 4.24
+
+ORA: 2.2928 30 start 2.3 immediately falls 
+
+RCG: 1.4904 100 start 1.460 immediately flat high 1.475
+
+WES: 39.615 100 start 39.290  immediately rises. High 39.640 
