@@ -33,18 +33,54 @@ NCK: 4.2493 f s l
 ORA: 2.2928 t s l
 RCG: 1.4904 f s l 
 WES: 39.615 t s l 
-TLS:: 5.1282
-PPT:: 40.4679
-PTM: 5.8143
-MNF: 3.4225
-KSL: 0.8846
-IFM: 0.5407
-ISU: 0.8771
-HFA: 2.4615
-EVT: 15.5429
-FXJ: 0.7571
-BGA: 5.8046
-AMP: 5.2145
-AHY: 1.687
-AWC: 1.3254
-BEN: 8.2929
+TLS:: 5.1282 f d l
+PPT:: 40.4679 t d l
+PTM: 5.8143 f d l
+MNF: 3.4225 t d l
+KSL: 0.8846 f d i
+IFM: 0.5407 t d l
+ISU: 0.8771 t d l
+EVT: 15.5429 t d l
+FXJ: 0.7571 t d l
+BGA: 5.8046 f d l
+AMP: 5.2145 f d l
+AHY: 1.687 t d l 
+AWC: 1.3254 t d l 
+BEN: 8.2929 f d l 
+VIT:: 1.5757 t u l 
+WLL:: 4.9593 t u i 
+WOW:: 22.2543 t u l 
+SRV:: 7.2288 t u l 
+SKC:: 4.0444 t u l 
+SKI:: 2.057 t u l 
+REA:: 52.0271 t u l 
+SAI:: 3.7211 t u l 
+NEC:: 1.4421 t u l 
+NHF:: 3.5544 t u l 
+MVP:: 4.8943 t u l 
+FMG:: 2.1464 t u l 
+FRI:: 0.8764 t u i 
+FSA:: 1.0164 f u i 
+FAN:: 1.945 t u i 
+EAX:: 1.178 f u i 
+EBG:: 0.0604 f u i 
+BLX:: 1.8319 t u i 
+BSL:: 5.4764 t u l 
+CIN:: 31.8786 f u i 
+CIW:: 0.6464 t u i 
+AWN:: 0.5473 f u i 
+ASX:: 41.5214 t u l 
+AMB:: 0.1921 f u i 
+TSM: 0.4314 t u i 
+SDA: 4.2209 t u l 
+REG: 5.1361 t u l
+PRT: 0.4093 t u i 
+PEA: 0.3721 t u i 
+PGH: 4.6517 t u l 
+PIC: 0.9287 t u i 
+LHC: 1.3725 f u l 
+HHL: 3.1492 t u i 
+AMA: 0.7861 t u l
+APX: 1.6764 t u l
+ABA: 4.91 t u i 
+ACK: 0.4171 f u i 

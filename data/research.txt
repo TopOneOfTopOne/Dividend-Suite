@@ -79,18 +79,79 @@ RCG: 1.4904 100 start 1.460 immediately flat high 1.475
 
 WES: 39.615 100 start 39.290  immediately rises. High 39.640 
 
-TLS:: 5.1282 100 2.95
-PPT:: 40.4679 100 3.02
-PTM: 5.8143 100 2.69
-MNF: 3.4225 100 1.01
-KSL: 0.8846 0 3.11
-IFM: 0.5407 0 3.09
-ISU: 0.8771 100 1.13
-HFA: 2.4615 0 2.8
-EVT: 15.5429 100 1.27
-FXJ: 0.7571 50 2.6
-BGA: 5.8046 100 0.77
-AMP: 5.2145 90 2.63
-AHY: 1.687 0 3.49
-AWC: 1.3254 100 1.86
-BEN: 8.2929 100 3.97
+==============1/03/16 down market=================
+
+TLS:: 5.1282 100 2.95 start 5.040 immediately rises 5.070 (10:32). High 5.080 
+
+PPT:: 40.4679 100 3.02 start 40.220 immediately rises past hypo @ (10:11)
+
+PTM: 5.8143 100 2.69 start 5.840 immediately declines 
+
+MNF: 3.4225 100 1.01 start 3.460 declines next trades @ (11:58) 3.370
+
+KSL: 0.8846 0 3.11 8 trades start 8.55. High 0.880 
+
+IFM: 0.5407 0 3.09 start 5.25 immediately rises breaks hypo @ (10:32) 0.545
+
+ISU: 0.8771 100 1.13 start 0.875 immediately rises past hypo @ (10:10)
+
+HFA: 2.4615 0 2.8 illiquid only starts trading (3:59) 2.470 
+
+EVT: 15.5429 100 1.27 start 15.500 immediately declines but rises again past hypo @ (10:48)
+
+FXJ: 0.7571 50 2.6 start 0.755 immediately rises past hypo 
+
+BGA: 5.8046 100 0.77 start 5.790 immediately falls but bounces back. High 5.800 @(10:17)
+
+AMP: 5.2145 90 2.63 start 5.200 immediately falls. High 5.200 
+
+AHY: 1.687 0 3.49 start 1.665 immediately rises past hypo
+
+AWC: 1.3254 100 1.86 start 1.340 immediately rises past hypo 
+
+BEN: 8.2929 100 3.97 start 8.200 immediately declines high 8.200 
+
+===================2/03/16 up market====================
+(VIT:: 1.5757 0 1.07) 
+(WLL:: 4.9593 100 1.79)
+(WOW:: 22.2543 100 1.95)
+(SRV:: 7.2288 50 1.51)
+(SKC:: 4.0444 0 2.03)
+(SKI:: 2.057 0 2.87)
+(REA:: 52.0271 100 0.69)
+(SAI:: 3.7211 100 1.98)
+(NEC:: 1.4421 100 5.32)
+(NHF:: 3.5544 100 1.61)
+(MVP:: 4.8943 100 0.41)
+(FMG:: 2.1464 100 1.38)
+(FRI:: 0.8764 100 3.33)
+(FSA:: 1.0164 100 2.88)
+(FAN:: 1.945 100 3.5)
+(EAX:: 1.178 100 2.33)
+(EBG:: 0.0604 100 3.23)
+(BLX:: 1.8319 100 1.24)
+(BSL:: 5.4764 100 0.55)
+(CIN:: 31.8786 100 1.43)
+(CIW:: 0.6464 100 4.48)
+(AWN:: 0.5473 0 0.91)
+(ASX:: 41.5214 100 2.34)
+(AMB:: 0.1921 100 5.0)
+
+Us markets rose a little where as au markets rose markedly 
+==================== 3/03/16 up market ======================
+
+(TSM: 0.4314 100 2.5)
+(SDA: 4.2209 100 0.87)
+(REG: 5.1361 100 1.8)
+(PRT: 0.4093 100 4.71)
+(PEA: 0.3721 100 2.63)
+(PGH: 4.6517 65 2.12)
+(PIC: 0.9287 100 0.86)
+(LHC: 1.3725 0 3.57) only stock does not reach hypo
+(HHL: 3.1492 100 4.33)
+(AMA: 0.7861 100 0.63)
+(APX: 1.6764 100 1.76)
+(ABA: 4.91 100 2.79)
+(ACK: 0.4171 100 2.35)
+Us markets rose a little where as au markets rose markedly 
+

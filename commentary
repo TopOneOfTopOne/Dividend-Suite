@@ -51,7 +51,10 @@ Future Focuses/Research:
 7. Liquidity of stock, are illiquid stock higher risk i.e. price falls short of hypo price by a huge amount (probably set it at sell price at which Pcum = Pex - div (div is actual amount I am going to receive))
 8. look at international share dividends 
 
+Proved:
+There is no difference between low yield and high yield. Furthermore ceteris parabis by the end of one iteration wealth = money/0.7 
 
+Very little variation in wealth from the strategies of trading frequently and trading not so frequently maintaining a balance above a certain number. Trading infrequently carried more risk because price movements cause more substantial changes in wealth but the expected return is the same for both strategies 
 low = Pcum/1.05
 high = Pcum - div
 Trading strategy:
