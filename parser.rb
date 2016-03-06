@@ -1,44 +1,33 @@
 require_relative 'HPC'
+require_relative 'scraping/stock_info_scraper'
 require 'yaml'
 require 'time'
-		
-		# def get_items(items)
-		# 	code = items[0]
-		# 	pcum = items[1].to_f 
-		# 	div = items[2].to_f
-		# 	frank = items[3].to_i
-		# 	div_yield = (div/pcum).round(2)
-		# 	[code,pcum,div,frank,div_yield]
-		# end
 
-		# o_path = File.expand_path('data/O.txt', File.dirname(__FILE__))
-		# research_path = File.expand_path('data/research.txt', File.dirname(__FILE__))
-		# i_path = File.expand_path('data/I.txt', File.dirname(__FILE__))
-		# o = File.open(o_path,'a+')
-		# research = File.open(research_path,'a+')
-		# i = File.open(i_path,'r').readlines
-		
-		# research.puts "========================== =========================="
-		# i.each do |line|
-		# 	code, pcum, div, frank, div_yield = get_items(line.split)
-		# 	hypo_price = HPC::hpc(pcum, div, frank)
-		# 	o.puts "#{code}: #{hypo_price}"
-		# 	research.puts "(#{code}: #{hypo_price} #{frank} #{div_yield})"
-		# end
+@research_File = File.open(File.expand_path('data/research.txt', File.dirname(__FILE__)),'a+')
+@dividends =  YAML.load_file(File.expand_path('data/dividends.yml', File.dirname(__FILE__)))
 
-
-
-		# puts 'done..'
-
-
-outFile = File.open(File.expand_path('data/O.txt', File.dirname(__FILE__)),'a+')
-dividends =  YAML.load_file(File.expand_path('data/dividends.yml', File.dirname(__FILE__)))
-#outFile.puts "==================================== ============================="
-dividends.each do |dividend|
-	ex_div_date = Time.parse(dividend[:ex_div_date])
-	cTime = Time.now
-	if ex_div_date.year == cTime.year && ex_div_date.month == cTime.month && ex_div_date.day == 8
-		outFile.puts "(#{dividend[:code]} #{dividend[:franking]})"
-	end 
+def get_upcoming_dividends
+	@dividends.map do |dividend|
+		ex_div_date = Time.parse(dividend[:ex_div_date])
+		cTime = Time.now
+		dividend if (ex_div_date.year == cTime.year) && (ex_div_date.month == cTime.month) && (ex_div_date.day == 8)
+	end.compact 
 end
+
+def calculations(dividend) # calcs #=> yield, hypo
+	stock_info = StockInfo.get_info(dividend[:code])
+	p stock_info
+	div_yield = dividend[:amount].to_f/stock_info[:last_price].to_f
+	hpc = HPC.hpc(stock_info[:last_price].to_f, dividend[:amount].to_f, dividend[:franking].to_f)
+	{div_yield: div_yield, hpc: hpc}
+end
+
+def write_to_research_file #=> meant to write all the required information for today's dividends i.e. Tomorrow's ex-dividend dates
+	@research_File.puts "==================================== #{Time.now.strftime("%d/%m/%Y")} ===================================="
+	get_upcoming_dividends.each do |dividend|
+		calcs = calculations(dividend)
+		@research_File.puts "(#{dividend[:code]}: #{calcs[:hpc]} #{dividend[:franking]} #{calcs[:div_yield]})"
+	end
+end
+write_to_research_file
 puts 'Done..'

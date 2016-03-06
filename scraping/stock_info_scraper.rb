@@ -17,29 +17,30 @@ module StockInfo
 		info = datas.map do |data|
 			data.text.gsub(/\s+/,'').gsub("\u00A0M",'')
 		end
-		info.pop(2) 
-		info.insert(0, last_price)
-		info #=> Format(last_price, open_price, day_range, year_range, market_cap, prev_close, today_volume, month_avg_volume, outstanding_shares, sector, industry)
+		{
+			last_price: last_price, open_price: info[0], day_range: info[1], year_range: info[2], market_cap: info[3], \
+			prev_close: info[4], today_volume: info[5], month_avg_volume: info[6], \
+			outstanding_shares: info[7], sector: info[8], industry: info[9]
+		}
+	end
 
+	def self.get_single_stock_info(code)
 	end
 
 	def self.get_info_from_array(array = [])
-		array.each do |el|
-			add_to_stocks_info_array(el)
-		end
-		@stocks_info
+		array.map {|code| get_info(code)}
 	end
 
-	def self.add_to_stocks_info_array(code)
-		last_price, open_price, day_range, year_range, market_cap, prev_close, today_volume, month_avg_volume, outstanding_shares, sector, industry = get_info(code)
-		@stocks_info <<  
-		{
-			last_price: last_price, open_price: open_price, day_range: day_range, year_range: year_range, market_cap: market_cap, \
-			prev_close: prev_close, today_volume: today_volume, month_avg_volume: month_avg_volume, \
-			outstanding_shares: outstanding_shares, sector: sector, industry: industry
-		}
-		sleep(2) # If you bombard MorningStar they seem to delay your requests
-	end
+	# def self.add_to_stocks_info_array(code)
+	# 	last_price, open_price, day_range, year_range, market_cap, prev_close, today_volume, month_avg_volume, outstanding_shares, sector, industry = get_info(code)
+	# 	@stocks_info <<  
+	# 	{
+	# 		last_price: last_price, open_price: open_price, day_range: day_range, year_range: year_range, market_cap: market_cap, \
+	# 		prev_close: prev_close, today_volume: today_volume, month_avg_volume: month_avg_volume, \
+	# 		outstanding_shares: outstanding_shares, sector: sector, industry: industry
+	# 	}
+	# 	sleep(2) # If you bombard MorningStar they seem to delay your requests
+	# end
 
 	# def self.get_info_from_file
 	# @stocks_info = []
@@ -56,4 +57,5 @@ module StockInfo
 	# outFile.puts stock_info
 end
 
-p StockInfo.get_info_from_array(['CBA', 'RIO', 'CIN'])
+# p StockInfo.get_info_from_array(['CBA', 'RIO', 'CIN'])
+# p StockInfo.get_info('CBA')
