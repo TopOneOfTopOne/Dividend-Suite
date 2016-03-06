@@ -6,6 +6,7 @@ I call it hypothesis price or hypo price or hypo. This is the predicted new ex-d
 
 ## Scraper
 Dividend information is gathered from Morning Star website using the scrapers. 
+Scrapers break *VERY* easily, a minor change in website's code could potentially fuck things up.  
 
 ## Simulator 
 Simulates your strategy but there are a lot of assumptions and I question if it is correctly programmed....
