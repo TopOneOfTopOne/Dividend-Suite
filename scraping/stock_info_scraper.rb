@@ -22,6 +22,7 @@ module StockInfo
 			prev_close: info[4], today_volume: info[5], month_avg_volume: info[6], \
 			outstanding_shares: info[7], sector: info[8], industry: info[9]
 		}
+		puts "\t Success!"
 	end
 
 	def self.get_single_stock_info(code)

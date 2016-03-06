@@ -16,7 +16,6 @@ end
 
 def calculations(dividend) # calcs #=> yield, hypo
 	stock_info = StockInfo.get_info(dividend[:code])
-	p stock_info
 	div_yield = dividend[:amount].to_f/stock_info[:last_price].to_f
 	hpc = HPC.hpc(stock_info[:last_price].to_f, dividend[:amount].to_f, dividend[:franking].to_f)
 	{div_yield: div_yield, hpc: hpc}
@@ -26,7 +25,7 @@ def write_to_research_file #=> meant to write all the required information for t
 	@research_File.puts "==================================== #{Time.now.strftime("%d/%m/%Y")} ===================================="
 	get_upcoming_dividends.each do |dividend|
 		calcs = calculations(dividend)
-		@research_File.puts "(#{dividend[:code]}: #{calcs[:hpc]} #{dividend[:franking]} #{calcs[:div_yield]})"
+		@research_File.puts "(#{dividend[:code]}: #{calcs[:hpc].round(3)} #{dividend[:franking]} #{calcs[:div_yield].round(2)})"
 	end
 end
 write_to_research_file
