@@ -10,9 +10,14 @@ module StockInfo
 
 	def self.get_info(code)
 		puts "Attempting to get #{code}"
-		page = Nokogiri::HTML(open("#{STOCK_QUOTES_URL}/#{code}"))
-		last_price = page.css("div#wrapper div#maincontent div.LayerFatter5NoBorder.N_Q div.N_QPriceContainer div.N_QPriceLeft div span span").last.text
-		datas = page.css('html body div#wrapper div#maincontent div.LayerFatter5NoBorder.N_Q div.N_QPriceContainer div.N_QPriceRight table tbody tr td span')
+		begin
+			page = Nokogiri::HTML(open("#{STOCK_QUOTES_URL}/#{code}"))
+			last_price = page.css("div#wrapper div#maincontent div.LayerFatter5NoBorder.N_Q div.N_QPriceContainer div.N_QPriceLeft div span span").last.text
+			datas = page.css('html body div#wrapper div#maincontent div.LayerFatter5NoBorder.N_Q div.N_QPriceContainer div.N_QPriceRight table tbody tr td span')
+		rescue Exception => e
+			puts "Error occured #{e}"
+		end
+		puts "\t Success!"
 		info = datas.map do |data|
 			data.text.gsub(/\s+/,'').gsub("\u00A0M",'')
 		end
@@ -21,7 +26,6 @@ module StockInfo
 			prev_close: info[4], today_volume: info[5], month_avg_volume: info[6], \
 			outstanding_shares: info[7], sector: info[8], industry: info[9]
 		}
-		puts "\t Success!"
 	end
 
 	def self.get_info_from_array(array = [])
