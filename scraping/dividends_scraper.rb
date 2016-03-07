@@ -24,4 +24,4 @@ stocks.each_with_index do |stock, index|
 end
 
 outFile.puts valid_stocks.to_yaml 
-puts 'Done..'
+puts '============== Done scraping dividends =============='
