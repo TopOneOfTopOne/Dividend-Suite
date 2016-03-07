@@ -29,24 +29,6 @@
   :div_pay_date: 18Mar2016
   :amount: '0.15'
   :franking: '0.00'
-- :code: ENN
-  :name: ElanorInvestor
-  :ex_div_date: 29Dec2015
-  :div_pay_date: 04Mar2016
-  :amount: '7.31'
-  :franking: '0.00'
-- :code: HPI
-  :name: HotelPropertyInvestments
-  :ex_div_date: 29Dec2015
-  :div_pay_date: 04Mar2016
-  :amount: '9.00'
-  :franking: '0.00'
-- :code: LEP
-  :name: ALEProperty
-  :ex_div_date: 29Dec2015
-  :div_pay_date: 07Mar2016
-  :amount: '9.90'
-  :franking: '0.00'
 - :code: RCT
   :name: ReefCasinoTrust
   :ex_div_date: 29Dec2015
@@ -71,24 +53,6 @@
   :div_pay_date: 10Mar2016
   :amount: '27.95'
   :franking: '0.00'
-- :code: ARG
-  :name: ArgoInvestments
-  :ex_div_date: 11Feb2016
-  :div_pay_date: 04Mar2016
-  :amount: '15.00'
-  :franking: '100.00'
-- :code: CL1
-  :name: Class
-  :ex_div_date: 12Feb2016
-  :div_pay_date: 07Mar2016
-  :amount: '1.00'
-  :franking: '0.00'
-- :code: PMC
-  :name: PlatinumCapital
-  :ex_div_date: 12Feb2016
-  :div_pay_date: 04Mar2016
-  :amount: '3.00'
-  :franking: '100.00'
 - :code: BLD
   :name: Boral
   :ex_div_date: 16Feb2016
@@ -113,30 +77,6 @@
   :div_pay_date: 24Mar2016
   :amount: '3.00'
   :franking: '50.00'
-- :code: GMA
-  :name: GenworthMortgageInsuranceAustralia
-  :ex_div_date: 17Feb2016
-  :div_pay_date: 04Mar2016
-  :amount: '19.30'
-  :franking: '100.00'
-- :code: GUD
-  :name: GUDHoldings
-  :ex_div_date: 17Feb2016
-  :div_pay_date: 04Mar2016
-  :amount: '20.00'
-  :franking: '100.00'
-- :code: JBH
-  :name: JBHi-Fi
-  :ex_div_date: 17Feb2016
-  :div_pay_date: 04Mar2016
-  :amount: '63.00'
-  :franking: '100.00'
-- :code: XRF
-  :name: XRFScientific
-  :ex_div_date: 17Feb2016
-  :div_pay_date: 04Mar2016
-  :amount: '0.20'
-  :franking: '100.00'
 - :code: CPU
   :name: Computershare
   :ex_div_date: 18Feb2016
@@ -155,12 +95,6 @@
   :div_pay_date: 25Mar2016
   :amount: '2.60'
   :franking: '50.00'
-- :code: CYA
-  :name: CenturyAustraliaInvestments
-  :ex_div_date: 18Feb2016
-  :div_pay_date: 07Mar2016
-  :amount: '1.90'
-  :franking: '100.00'
 - :code: SUN
   :name: SuncorpGroup
   :ex_div_date: 18Feb2016
@@ -221,12 +155,6 @@
   :div_pay_date: 15Mar2016
   :amount: '30.00'
   :franking: '0.00'
-- :code: MFG
-  :name: MagellanFinancialGroup
-  :ex_div_date: 23Feb2016
-  :div_pay_date: 04Mar2016
-  :amount: '51.30'
-  :franking: '100.00'
 - :code: MOC
   :name: MortgageChoice
   :ex_div_date: 23Feb2016
@@ -245,12 +173,6 @@
   :div_pay_date: 31Mar2016
   :amount: '10.00'
   :franking: '0.00'
-- :code: SDM
-  :name: Sedgman
-  :ex_div_date: 23Feb2016
-  :div_pay_date: 07Mar2016
-  :amount: '12.30'
-  :franking: '100.00'
 - :code: BAL
   :name: Bellamy'sAustralia
   :ex_div_date: 24Feb2016
@@ -292,12 +214,6 @@
   :ex_div_date: 24Feb2016
   :div_pay_date: 11Mar2016
   :amount: '10.00'
-  :franking: '100.00'
-- :code: MIN
-  :name: MineralResources
-  :ex_div_date: 24Feb2016
-  :div_pay_date: 04Mar2016
-  :amount: '8.50'
   :franking: '100.00'
 - :code: MTR
   :name: MantraGroup
@@ -513,7 +429,7 @@
   :name: Alumina
   :ex_div_date: 01Mar2016
   :div_pay_date: 23Mar2016
-  :amount: '2.51'
+  :amount: '2.47'
   :franking: '100.00'
 - :code: BEN
   :name: BendigoAdelaideBnk
@@ -543,7 +459,7 @@
   :name: HFAHoldings
   :ex_div_date: 01Mar2016
   :div_pay_date: 16Mar2016
-  :amount: '6.99'
+  :amount: '6.80'
   :franking: '0.00'
 - :code: IFM
   :name: Infomedia
@@ -2158,4 +2074,16 @@
   :ex_div_date: 29Apr2016
   :div_pay_date: 20May2016
   :amount: '1.00'
+  :franking: '100.00'
+- :code: HGG
+  :name: HendersonGroup
+  :ex_div_date: 05May2016
+  :div_pay_date: 27May2016
+  :amount: '14.76'
+  :franking: '0.00'
+- :code: WAT
+  :name: Waterco
+  :ex_div_date: 05May2016
+  :div_pay_date: 15Jun2016
+  :amount: '2.00'
   :franking: '100.00'

@@ -6,7 +6,7 @@ module StockInfo
 	stocks_to_scrape_file = 'dividends.yml'
 	STOCK_QUOTES_URL =  'http://www.morningstar.com.au/Stocks/NewsAndQuotes/'
 	inFile = YAML.load_file(File.expand_path("../data/#{stocks_to_scrape_file}",File.dirname(__FILE__)))
-	outFile = File.open(File.expand_path("../data/stock_info.yml", File.dirname(__FILE__)),'w')
+	# outFile = File.open(File.expand_path("../data/stock_info.yml", File.dirname(__FILE__)),'w')
 
 	def self.get_info(code)
 		puts "Attempting to get #{code}"

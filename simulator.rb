@@ -16,18 +16,20 @@ money = starting_money
 wealth = starting_money
 period = 30 # (length of time until you get dividends back)
 time =  0 
-year = 365
+time_frame = 120
 pending_dividends = {}
 franking = 1 
-transaction_cost = 40
+transaction_cost = 20
 transactions = 0 
 _yield = 0.025
+total_franking_credits = 0 
 
 
-while time < year 
+while time < time_frame
   if money > 2000
   	dividend = money*(_yield)
   	franking_credit = (dividend/0.7)-dividend
+    total_franking_credits += franking_credit
   	pending_dividends[time+period] = dividend
   	wealth += franking_credit # assuming price drops by dividend we just add the franking credits to total wealth
   	money = money*(1-_yield) - transaction_cost
@@ -40,3 +42,4 @@ while time < year
 end
 puts "Transactions: #{transactions}"
 puts "Ending money: #{money} wealth: #{wealth}"
+puts "Total franking credits: #{total_franking_credits}"
