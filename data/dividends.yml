@@ -5,12 +5,6 @@
   :div_pay_date: 11Apr2016
   :amount: '7.00'
   :franking: '0.00'
-- :code: FFG
-  :name: FatfishInternetGroup
-  :ex_div_date: 23Sep2015
-  :div_pay_date: 11Mar2016
-  :amount: '14.00'
-  :franking: '0.00'
 - :code: AGF
   :name: AMPCapitalChinaGrowthFund
   :ex_div_date: 29Dec2015
@@ -47,18 +41,6 @@
   :div_pay_date: 16Mar2016
   :amount: '12.00'
   :franking: '100.00'
-- :code: ANN
-  :name: Ansell
-  :ex_div_date: 11Feb2016
-  :div_pay_date: 10Mar2016
-  :amount: '27.95'
-  :franking: '0.00'
-- :code: BLD
-  :name: Boral
-  :ex_div_date: 16Feb2016
-  :div_pay_date: 11Mar2016
-  :amount: '11.00'
-  :franking: '100.00'
 - :code: CBA
   :name: CommonwealthBank
   :ex_div_date: 16Feb2016
@@ -83,12 +65,6 @@
   :div_pay_date: 16Mar2016
   :amount: '16.00'
   :franking: '100.00'
-- :code: CSV
-  :name: CSG
-  :ex_div_date: 18Feb2016
-  :div_pay_date: 09Mar2016
-  :amount: '4.00'
-  :franking: '0.00'
 - :code: CTN
   :name: ContangoMicrocap
   :ex_div_date: 18Feb2016
@@ -113,12 +89,6 @@
   :div_pay_date: 05Apr2016
   :amount: '23.50'
   :franking: '75.00'
-- :code: OZL
-  :name: OZMinerals
-  :ex_div_date: 22Feb2016
-  :div_pay_date: 10Mar2016
-  :amount: '14.00'
-  :franking: '0.00'
 - :code: WPL
   :name: WoodsidePetroleum
   :ex_div_date: 22Feb2016
@@ -155,18 +125,6 @@
   :div_pay_date: 15Mar2016
   :amount: '30.00'
   :franking: '0.00'
-- :code: MOC
-  :name: MortgageChoice
-  :ex_div_date: 23Feb2016
-  :div_pay_date: 11Mar2016
-  :amount: '8.00'
-  :franking: '100.00'
-- :code: MRN
-  :name: MacquarieMedia
-  :ex_div_date: 23Feb2016
-  :div_pay_date: 08Mar2016
-  :amount: '2.00'
-  :franking: '100.00'
 - :code: ORG
   :name: OriginEnergy
   :ex_div_date: 23Feb2016
@@ -191,12 +149,6 @@
   :div_pay_date: 14Mar2016
   :amount: '3.00'
   :franking: '100.00'
-- :code: CVC
-  :name: CVC
-  :ex_div_date: 24Feb2016
-  :div_pay_date: 08Mar2016
-  :amount: '5.00'
-  :franking: '100.00'
 - :code: CVO
   :name: Cover-MoreGroup
   :ex_div_date: 24Feb2016
@@ -208,12 +160,6 @@
   :ex_div_date: 24Feb2016
   :div_pay_date: 23Mar2016
   :amount: '9.00'
-  :franking: '100.00'
-- :code: KOV
-  :name: Korvest
-  :ex_div_date: 24Feb2016
-  :div_pay_date: 11Mar2016
-  :amount: '10.00'
   :franking: '100.00'
 - :code: MTR
   :name: MantraGroup
@@ -351,7 +297,7 @@
   :name: ContactEnergy
   :ex_div_date: 29Feb2016
   :div_pay_date: 23Mar2016
-  :amount: '9.77'
+  :amount: '9.52'
   :franking: '0.00'
 - :code: CGF
   :name: Challenger
@@ -359,12 +305,6 @@
   :div_pay_date: 29Mar2016
   :amount: '16.00'
   :franking: '100.00'
-- :code: GRF
-  :name: GlobalResourceMastersFund
-  :ex_div_date: 29Feb2016
-  :div_pay_date: 09Mar2016
-  :amount: '127.00'
-  :franking: '0.00'
 - :code: IAG
   :name: InsuranceAust.Grp.
   :ex_div_date: 29Feb2016
@@ -477,7 +417,7 @@
   :name: KinaSecurities
   :ex_div_date: 01Mar2016
   :div_pay_date: 04Apr2016
-  :amount: '2.80'
+  :amount: '2.82'
   :franking: '0.00'
 - :code: MNF
   :name: MNFGroup
@@ -575,12 +515,6 @@
   :div_pay_date: 07Apr2016
   :amount: '3.00'
   :franking: '100.00'
-- :code: FRI
-  :name: FinbarGroup
-  :ex_div_date: 02Mar2016
-  :div_pay_date: 10Mar2016
-  :amount: '3.00'
-  :franking: '100.00'
 - :code: FSA
   :name: FSAGroup
   :ex_div_date: 02Mar2016
@@ -605,12 +539,6 @@
   :div_pay_date: 01Apr2016
   :amount: '5.75'
   :franking: '100.00'
-- :code: REA
-  :name: REAGroup
-  :ex_div_date: 02Mar2016
-  :div_pay_date: 11Mar2016
-  :amount: '36.00'
-  :franking: '100.00'
 - :code: SAI
   :name: SAIGlobal
   :ex_div_date: 02Mar2016
@@ -627,7 +555,7 @@
   :name: SkyCity
   :ex_div_date: 02Mar2016
   :div_pay_date: 18Mar2016
-  :amount: '8.31'
+  :amount: '8.08'
   :franking: '0.00'
 - :code: SKI
   :name: SparkInfrastructure
@@ -861,14 +789,8 @@
   :name: OilSearch
   :ex_div_date: 08Mar2016
   :div_pay_date: 31Mar2016
-  :amount: '5.58'
+  :amount: '5.39'
   :franking: '0.00'
-- :code: PPG
-  :name: PRO-PACPackaging
-  :ex_div_date: 08Mar2016
-  :div_pay_date: 19May2016
-  :amount: '1.25'
-  :franking: '100.00'
 - :code: QUB
   :name: QubeHoldings
   :ex_div_date: 08Mar2016
@@ -1211,6 +1133,12 @@
   :div_pay_date: 15Apr2016
   :amount: '6.00'
   :franking: '0.00'
+- :code: GZL
+  :name: GazalCorporation
+  :ex_div_date: 11Mar2016
+  :div_pay_date: 04Apr2016
+  :amount: '5.00'
+  :franking: '100.00'
 - :code: HOM
   :name: Homeloans
   :ex_div_date: 11Mar2016
@@ -1295,6 +1223,12 @@
   :div_pay_date: 04Apr2016
   :amount: '4.75'
   :franking: '100.00'
+- :code: EPX
+  :name: EthanePipeline
+  :ex_div_date: 15Mar2016
+  :div_pay_date: 15Apr2016
+  :amount: '3.25'
+  :franking: '77.09'
 - :code: PSI
   :name: PSCInsuranceGroup
   :ex_div_date: 15Mar2016
@@ -1379,6 +1313,18 @@
   :div_pay_date: 04Apr2016
   :amount: '9.45'
   :franking: '0.00'
+- :code: RKN
+  :name: Reckon
+  :ex_div_date: 16Mar2016
+  :div_pay_date: 06Apr2016
+  :amount: '3.00'
+  :franking: '0.00'
+- :code: SHM
+  :name: ShriroHoldings
+  :ex_div_date: 16Mar2016
+  :div_pay_date: 31Mar2016
+  :amount: '6.00'
+  :franking: '100.00'
 - :code: SNL
   :name: SupplyNetwork
   :ex_div_date: 16Mar2016
@@ -1769,12 +1715,12 @@
   :div_pay_date: 29Apr2016
   :amount: '12.00'
   :franking: '100.00'
-- :code: EPX
-  :name: EthanePipeline
+- :code: KBC
+  :name: KeybridgeCapital
   :ex_div_date: 30Mar2016
   :div_pay_date: 15Apr2016
-  :amount: '3.25'
-  :franking: '77.09'
+  :amount: '0.25'
+  :franking: '100.00'
 - :code: MEZ
   :name: MeridianEnergy
   :ex_div_date: 30Mar2016
@@ -2087,3 +2033,15 @@
   :div_pay_date: 15Jun2016
   :amount: '2.00'
   :franking: '100.00'
+- :code: TWD
+  :name: Tamawood
+  :ex_div_date: 12May2016
+  :div_pay_date: 02Jun2016
+  :amount: '10.00'
+  :franking: '100.00'
+- :code: XPD
+  :name: XPDSoccerGearGroup
+  :ex_div_date: 12May2016
+  :div_pay_date: 30May2016
+  :amount: '1.00'
+  :franking: '0.00'

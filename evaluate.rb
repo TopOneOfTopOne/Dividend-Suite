@@ -23,7 +23,7 @@ def eval(div_to_eval)
 
 	reach_hypo = hpc <= high ? true : false
 
-	liquid = div_to_eval[:today_volume].to_i > 100 ? true : false
+	liquid = div_to_eval[:today_volume].gsub(',','').to_i * div_to_eval[:last_price].to_f > 800_000 ? true : false
 
 	percent_off = ((high-hpc)/hpc * 100).round(2)
 
